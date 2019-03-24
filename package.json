@@ -24,6 +24,7 @@
     "cover": "nyc --cache npm test; nyc report --reporter=html"
   },
   "dependencies": {
+    "http":"0.0.0",
     "express": "^4.16.4"
   },
   "devDependencies": {
