@@ -24,8 +24,10 @@
     "cover": "nyc --cache npm test; nyc report --reporter=html"
   },
   "dependencies": {
-    "http":"0.0.0",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "mime-types": "^2.1.22"
   },
   "devDependencies": {
     "@google-cloud/nodejs-repo-tools": "^3.0.0",
